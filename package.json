@@ -1,0 +1,24 @@
+{
+  "name": "ahrs-node-wrapper",
+  "version": "0.0.0",
+  "description": "Node wrapper and web visualization for David Grayson's Ahrs for Pololu MinIMU-9 / AltIMU-10",
+  "main": "._test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imu",
+    "ahrs",
+    "pololu",
+    "minimu",
+    "altimu"
+  ],
+  "author": "tjk@iki.fi",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "baconjs": "0.7",
+    "node-static": "0.7",
+    "primus": "1.4",
+    "ws": "0.4.30"
+  }
+}
